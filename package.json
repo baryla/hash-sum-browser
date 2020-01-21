@@ -1,0 +1,27 @@
+{
+  "name": "hash-sum-browser",
+  "version": "0.1.0",
+  "description": "The popular hash-sum package but for the browser",
+  "main": "dist/index.js",
+  "unpkg": "dist/index.min.js",
+  "jsdelivr": "dist/index.min.js",
+  "cdnjs": "dist/index.min.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": "git@github.com:baryla/hash-sum-browser.git",
+  "author": "Adrian Barylski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/baryla/hash-sum-browser/issues"
+  },
+  "homepage": "https://github.com/baryla/hash-sum-browser#readme",
+  "files": [
+    "dist/index.js",
+    "dist/index.min.js"
+  ],
+  "devDependencies": {
+    "rollup": "^1.29.1",
+    "rollup-plugin-terser": "^5.2.0"
+  }
+}
