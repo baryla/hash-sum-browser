@@ -1,6 +1,6 @@
 {
   "name": "hash-sum-browser",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "The popular hash-sum package but for the browser",
   "main": "dist/index.js",
   "unpkg": "dist/index.min.js",
